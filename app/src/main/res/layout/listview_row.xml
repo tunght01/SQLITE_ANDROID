@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iimgAnhDaiDien"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/customimage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_idNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_hotenNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_namSinhNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_soDienThoaiNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_chucVuNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_queQuanNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_sua"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombutton"
+                app:backgroundTint="@null"
+                android:text="Sửa"
+                android:textSize="8dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_xoa"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="Xoá"
+                android:textSize="8dp"
+                android:background="@drawable/custombutton"
+                app:backgroundTint="@null"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
